@@ -1,1 +1,66 @@
+body{
+    background: linear-gradient(45deg,rgb(118,201,255),rgb(247,255,222));
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hiddn;
+}
+.ground {
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+    position: absolute;
+    z-index: 3;
+    margin-top:-58px;
+}
 
+.penguin {
+    position: relative;
+    z-index: 4;
+    margin-top: 75px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.penguin-head_{
+    width: 45%;
+    height: 45%;
+    background: linear-gradient(45deg, gray, rgb(239,240,228))
+
+}
+ 
+.left-mountain {
+    position: absolute;
+    z-index: 2;
+    transform: skew(0deg, 44deg);
+    width:300px;
+    height:300px;
+    margin-top: 100px;
+    background: linear-gradient(rgb(203, 241, 228), rgb(80,183, 255))
+}
+
+.back-mountain {
+    position: absolute;
+    transform: rotate(45deg);
+    left: 110px;
+    top:225px;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(rgb(203,241,228), rgb(47,170,255));
+    z-index: 1;
+}
+
+.sun {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    top: -75px;
+    right: -75px;
+
+}
+
+/* left off @ 20:40
